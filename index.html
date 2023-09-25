@@ -1,0 +1,146 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Rene 2023</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body> 
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="#resumen">Inicio</a></li>
+                <li> <a href="#cuerpo">Sobre Mi</a></li>
+                <li> <a href="#resumen">Curriculum</li>
+                <li> <a href="#contacto">contacto</li>
+                    
+                
+            </ul>
+        </nav>
+        
+
+
+    </header>
+    
+    
+<main>
+    <section id="resumen">
+        <h1> Curriculum Vitae</h1>
+        <div class="perfil">
+            <img src="rene.jpg">
+
+
+
+        </div>
+        <h2>Rene</h2>
+        <h3>Edad : 45 años </h3>
+        <h4>Telefono : 1234567890</h4>
+        <h5>E mail : Rene@yahoo.com</h5>
+        <h6>Direccion : C.A.B.A. Argentina</h6>
+
+        <div class="parrafo">
+            <h4>Desarrollo webs,Developers,Base de datos,Mysql.</h4>
+
+        </div>
+
+
+
+     </div>
+        <button>
+            Descargar cv  
+            
+        </button>
+
+      </div>
+
+
+
+
+
+    </section>
+    <section id="cuerpo">
+        <h2>Formacion Academica</h2>
+
+         <div class="Curriculum">
+            <h3>Desarrollo Webs Univesidad Utn 2020-2023</h3>           
+            <h4>Tecnico Injeccion Electronica en sindicato S.M.A.T.A 2010-2015</h4> 
+            <h5>Procesamiento de Vegetales y Verduras 2005-2010</h5>
+        <div>
+        
+
+
+
+
+
+    </section>
+    <section id="contacto">
+        <h2>Ingrese sus datos de Contacto y lo contactare a la brevedad </h2>
+        <form id="formcontacto" class="form1" action="mailto">
+            <div class="marcoform">
+                
+            <div class="camposform">
+                <label> Institución</label>
+                <input type="text" placeholder="Institución">
+            </div>
+
+                <div class="camposform">
+                    <label>País</label>
+                    <input type="text" placeholder="País">
+                </div>
+    
+                    <div class="camposform">
+                        <label>Nombre</label>
+                        <input type="text" id="Nombre" placeholder="Nombre">
+                    </div>
+        
+                        <div class="camposform">
+                            <label>Apellido</label>
+                            <input type="text" id="Apellido" placeholder="Apellido">
+                    </div>
+            
+                         <div class="camposform">
+                             <label>E Mail</label>
+                            <input type="text" id="E Mail" placeholder="E Mail">
+                    </div>
+
+                        <div class="camposform">
+                            <label> Telefono </label>
+                            <input type="tel" id="tel" placeholder="Telefono">
+                        </div>
+                    
+                        <div class="camposform">
+                            <label> Mensaje</label>
+                            <textarea name="Mensaje" id="msge" cols="30" rows="4" placeholder="Motivo del contacto" ></textarea>
+                        </div>
+                        
+           <div class="camposformbutton">
+             <button type="submit" class="btnsuccess" value="validar correo" onclick="validarcorreo(document.getElementById('E Mail').value)"\> Enviar contacto</button>
+              <p class="atencion" id="atencion"></p>
+           </div>
+
+
+      </div>
+
+    </form>
+
+
+    </section>
+
+    <script src="form.js"></script>
+    
+
+    </main>
+
+    <footer>Powered by Rene</footer>
+
+
+    
+</body>
+
+
+
+
+</html>
